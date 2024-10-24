@@ -1,0 +1,25 @@
+<nav>
+  <ul>
+
+    @if( acceso != 'true'){
+
+    <li>
+      <a class="nav-link" routerLink="/pagina">Películas</a>
+    </li>
+
+  }@else {
+    <li>
+      <a class="nav-link" routerLink="/login">Login</a>
+    </li>
+
+    <li>
+      <a class="nav-link" routerLink="/registro">Registro</a>
+    </li>
+
+ >
+
+
+  }
+
+  </ul>
+</nav>

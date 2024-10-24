@@ -1,0 +1,42 @@
+.peliculas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.peliculas-grid div {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+.peliculas-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.peliculas-grid h1 {
+  font-size: 1.2em;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.peliculas-grid p {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.peliculas-grid p:first-of-type {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.peliculas-grid p:last-of-type {
+  color: #28a745;
+  font-weight: bold;
+}
+

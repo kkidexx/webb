@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form #registroForm="ngForm" (ngSubmit)="onRegister()">
+        <div class="form-group">
+          <label for="email" class="form-label">Email:</label>
+          <input type="text" class="form-control" placeholder="Email" name="email" [(ngModel)]="email" required />
+        </div>
+        <div class="form-group">
+          <label for="nick" class="form-label">Nick:</label>
+          <input type="text" class="form-control" placeholder="Nick" name="nick" [(ngModel)]="nick" required />
+        </div>
+        <div class="form-group">
+          <label for="password" class="form-label">Password:</label>
+          <input type="password" class="form-control" placeholder="Password" name="password" [(ngModel)]="password" required />
+        </div>
+        <div class="form-group">
+          <label for="confirmPassword" class="form-label">Confirmar Password:</label>
+          <input type="password" class="form-control" placeholder="Confirmar Password" name="confirmPassword" [(ngModel)]="confirmPassword" required />
+        </div>
+        <div *ngIf="password !== confirmPassword && confirmPassword" class="alert alert-danger">
+          Las contraseñas no coinciden.
+        </div>
+        <button type="submit" class="btn btn-primary submit-button" [disabled]="password !== confirmPassword">Register</button>
+      </form>
+    </div>
+  </div>
+</div>

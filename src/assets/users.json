@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "email": "joxxx@mail.com",
+      "password": "$2a$10$hpaBVT9JhQcxWzpiPYgF7OlEOWmVem3I/9PyD7NsXB69tvc2hYxwi",
+      "id": 1
+    },
+    {
+      "email": "an18@emial.com",
+      "password": "$2a$10$82mRUKDvUouga83KpDWaH.6Z228As2lJ8c.80xd7ynGunZt5rvpsO",
+      "nick": "joxx45",
+      "id": 2
+    },
+    {
+      "email": "wef@emial.com",
+      "password": "$2a$10$dhfDjdoAuFKDP3XyXUkz1.tRiPEbNv5EILCp4SXBEtdylLlJJUIS.",
+      "nick": "ddd33",
+      "id": 3
+    },
+    {
+      "email": "zeta6@emial.com",
+      "password": "$2a$10$NOAgJ2N.PD682osiwIHjFe0uNv3FPkFcvh/hENGk3C0Oo3bqx9X.a",
+      "nick": "cc52",
+      "id": 4
+    }
+  ]
+}
